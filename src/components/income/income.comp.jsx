@@ -56,11 +56,13 @@ const Income = (props) => {
                 [project, parseInt(cost)],
             ])
         }
-
+        
         setDataTable((prevState) => [
             ...prevState,
             [project, deadline, parseInt(cost)],
         ])
+        
+        console.log([project, deadline, parseInt(cost)])
     }
 
     return (

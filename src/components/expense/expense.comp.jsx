@@ -61,6 +61,8 @@ const Expense = (props) => {
             ...prevState,
             [category, month, parseInt(value)],
         ])
+
+        console.log([category, month, parseInt(value)])
     }
 
     return (
