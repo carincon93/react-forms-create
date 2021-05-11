@@ -1,0 +1,8 @@
+.donut-chart {
+	width: 650px;
+	height: 500px;
+	position: relative;
+	left: -105px;
+	top: -50px;
+	opacity: 0.8;
+}
