@@ -65,6 +65,7 @@ const Expense = (props) => {
 
     return (
         <div className="expense-container">
+            <h1>Expense</h1>
             <Chart chartData={chartData} chartTarget="expense-chart">
     			<div id="expense-chart" className="donut-chart"></div>
             </Chart>

@@ -65,6 +65,7 @@ const Income = (props) => {
 
     return (
         <div className="income-container">
+            <h1>Income</h1>
             <Chart chartData={chartData} chartTarget="income-chart">
     			<div id="income-chart" className="donut-chart"></div>
             </Chart>
